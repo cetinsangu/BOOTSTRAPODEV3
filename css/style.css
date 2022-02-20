@@ -1,0 +1,159 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f3f2ef;
+  margin: 80px;
+}
+
+.navbarli{
+  background-color: white;
+  border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+  height: 55px;
+  padding-left: 120px;
+  
+  
+  
+   
+  
+}
+input::placeholder{
+  
+  padding-left: 20px;
+  background-image: url("/assets/search-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 7%;
+  background-position: 1px 1px;
+  padding: auto;
+  background-position-x: left;
+  
+  
+  
+  
+  
+  
+
+  
+  
+}
+ 
+.vr{
+  border-right: 1px solid rgba(var(--b6a,219,219,219),1) ;
+  height: 60px;
+}
+.link:hover{
+  background-color: #f3f2ef;
+  cursor: pointer;
+}
+
+.borderli{
+  border-radius: 10px;
+}
+
+.group-icon{
+  width: 16px;
+  height: 16px;
+}
+
+.left-bar:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);
+  
+}
+
+.post-button{
+  border: 1px solid rgba(0,0,0, 0.1 );
+  border-radius: 25px;
+  height: 48px;
+  text-align: left;
+  padding-left: 16px;
+  font-size: 14px;
+  color: gray;
+  background-color: #fff;
+}
+.post-button:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);
+  
+}
+
+.top-area-text{
+  font-size: 14px;
+  color: gray;
+  
+
+  
+}
+.top-area-text:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);
+  
+
+
+}
+
+.post-area{
+  border: none;
+  background-color: #fff;
+
+}
+.post-area:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);;
+}
+
+.hr-button:focus{
+outline: none;
+}
+
+.link:hover{
+  color: blue;
+}
+.ellipses{
+  border: none;
+  background-color: white;
+
+}
+.ellipses:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);
+  border-radius: 50px;
+
+}
+
+.img-link:hover{
+color: blue;
+}
+
+
+.img-bottom-button:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);
+  
+}
+
+.right-panel-button{
+  width: 97px;
+  height: 32px;
+  border-radius: 20px;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+  background-color: #ffffff;
+  color: #00000099;
+  
+
+}
+
+.right-panel-button:hover{
+  background-color: #00000014;
+}
+.right-panel-link:hover{
+  color: #0a66c2;
+}
+
+.left-bar{
+  position: sticky;
+  top: 80px;
+}
+
+.right-panel-card{
+  position: sticky;
+  top: 80px;
+}
+
+.messaging-link:hover{
+  background-color: #00000014;
+  border-radius: 25px;
+  
+}

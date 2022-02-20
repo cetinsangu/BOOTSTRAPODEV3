@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Linkedin</title>
+  </head>
+  <body>
+<!-- Header-start --------------------------------------------------------------------------------------- -->
+  <nav class="navbar navbar-expand-sm navbar-light navbarli fixed-top">
+        <a class="navbar-brand" href="https://www.linkedin.com/feed/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="global-nav__logo" style="color: #0a66c2;">
+                <title>Linkedin</title>
+          
+                <g>
+                  <path d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z" fill="currentColor"></path>
+                </g>
+            </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <form class="form-inline ">
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search" style="width: 280px; height: 34px; background-color: #eef3f8;">
+                
+          </form>  
+          <ul class="navbar-nav" style="margin-left: 220px;">
+            <li class="nav-item active mt-1 text-center mr-3">
+                
+              <a class="nav-link" href="https://www.linkedin.com/feed/">
+                <i class="fas fa-home fa-lg"></i><br> 
+                <span style="font-size: 12px;" > Home </span>
+              </a>
+            </li>
+            <li class="nav-item text-center mt-1 mr-3">
+
+                <a class="nav-link" href="https://www.linkedin.com/mynetwork/">
+                    <i class="fas fa-user-friends fa-lg"></i><br>
+                    <span style="font-size: 12px;">My Network</span>
+                </a>
+            </li>
+            
+            <li class="nav-item text-center mt-1 mr-3">
+              <a class="nav-link" href="https://www.linkedin.com/jobs/">
+                <i class="fas fa-briefcase fa-lg"></i><br>
+                <span style="font-size: 12px;">Jobs</span>  
+              </a>
+            </li>
+            <li class="nav-item text-center mt-1 mr-3">
+                <a class="nav-link" href="https://www.linkedin.com/messaging/thread/2-ZWNiYTk4NTEtYzYzNS00ODA5LWFhZTUtMGRmYmY1ODlhNjIwXzAxMg==/">
+                    <i class="fas fa-comment-dots fa-lg"></i><br>
+                    <span style="font-size: 12px;">Messaging</span>
+                </a>
+            </li>
+            <li class="nav-item text-center mt-1 mr-3">
+                <a class="nav-link" href="https://www.linkedin.com/notifications/">
+                    <i class="fas fa-bell fa-lg"></i><br>
+                    <span style="font-size: 12px;">Notifications</span>
+                </a>
+            </li>
+              
+            <li class="nav-item dropdown text-center  ">
+                <div class="mt-2 " style="height: 23px;">
+                    <a href="" class="mt-5"> 
+                        <img  class="rounded-circle" style="width: 24px; height: 24px;" src="img/profile photo.jpg" alt="">
+                    </a>
+                </div>
+                <a class="nav-link dropdown-toggle   " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size: 12px;">
+                  Me
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <div class="vr ml-3"></div>
+              <li class="nav-item dropdown text-center ml-3 mt-1 ">
+                <div class="mt-2 " style="height: 23px;">
+                    <a href="" class="mt-5 text-decoration-none text-secondary"> 
+                        <i class="fas fa-th fa-lg "></i>
+                    </a>
+                </div>
+                <div style="margin-top: -4px;">
+                    <a class="nav-link dropdown-toggle   " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size: 12px;">
+                        Work
+                      </a>
+                </div>
+                
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <span class="my-auto ml-3 text-center" style="font-size: 12px; color: #915907;"> <a href="https://www.linkedin.com/premium/survey/?destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fnotifications%2F%3FshowPremiumWelcomeBanner%3Dtrue&upsellOrderOrigin=premium_nav_upsell_text"  style="color:#915907 ;"> Try Premium for <br> free</a> </span>  
+
+          </ul>
+        </div>
+  </nav>
+<!--Header-End-------------------------------------------------------------------------------------------  -->
+<!-- Section- Start-------------------------------------------------------------------------------------- -->
+  <section class="container mt-4">
+        <div class="row">
+            <div class="col-sm-3 ">
+                <div class="card borderli" style="width: 14rem;"  >
+                    <img src="img/background img.jpg" class="card-img-top" alt="...">
+                    <div class="text-center" style="margin-top: -40px;">
+                        <a href="#">
+                            <img  class="rounded-circle" src="img/profile photo.jpg" style="width: 72px; height: 72px;" alt="">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <a  class="text-dark text-center" href="#"> <h6 class="card-title" style="font-size: 16px;">Çetin Sanğu</h6> </a>
+                        <p class="card-text text-center text-secondary mt-1" style=" font-size: 12px;">Front-End Developer</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item  text-secondary link " style="font-size: 12px;">
+                            <div>
+                                <a class="text-decoration-none text-secondary  " style="margin-left: -12px;;" href="https://www.linkedin.com/me/profile-views/urn:li:wvmp:summary/">
+                              Who viewed your profile
+                             
+                                </a>
+                                <a class="text-decoration-none  float-right " href="https://www.linkedin.com/me/profile-views/urn:li:wvmp:summary/">
+                                <strong>32</strong>
+                                </a>
+                            </div>
+                            <div class="mt-1  ">
+                                <a class="text-decoration-none text-secondary" style="margin-left:-12px;" href="#recent-activity/shares/">
+                                     Views of your post
+
+                                </a>
+                                 <a class="text-decoration-none  float-right " href="https://www.linkedin.com/me/profile-views/urn:li:wvmp:summary/">
+                                 <strong>4,832</strong> 
+                          
+
+                            </div>
+                          
+                                                      
+                        </li>
+                      <li class="list-group-item link ">
+                        <div style="margin-left: -10px;">
+                          <a href="#" class="text-decoration-none text-secondary" style="font-size: 12px;">
+                          Access exclusive tools & insights <br>
+                            <i class="fas fa-square" style="color: rgb(231, 163, 62);">
+                              <span class="text-dark"> Try premium for free</span>
+
+                            </i>
+                          </a>
+                        </div>
+                        
+                        
+                        
+                      </li>
+                      <li class="list-group-item link">
+                          <div style="margin-left: -10px;">
+                            <a href="https://www.linkedin.com/my-items/saved-jobs/" class="text-decoration-none text-dark" style="font-size: 12px;">
+                              <i class="fas fa-bookmark"></i>
+                              <span class="ml-2" style="color: #000000e6;">My items</span>
+
+                            </a>
+                          </div>
+                      </li>
+                    </ul>
+                    
+                </div>
+                <div class="card mt-2 left-bar" style="width: 14rem;"  >
+                    
+                    <div class="card-body" >
+                        <h6 class="card-title text-secondary" style="font-size: 12px;">Recent</h6>
+                        <a href="https://www.linkedin.com/groups/1967039/" class="text-decoration-none text-dark left-bar" style="font-size: 12px;">
+                          <i class="fas fa-users group-icon"></i> <span> Kodluyoruz & Front-End</span>
+                        </a> <br>
+                        <a href="https://www.linkedin.com/groups/1967039/" class="text-decoration-none text-dark left-bar" style="font-size: 12px;">
+                          <i class="fas fa-users group-icon"></i> <span> Bootstrap & CSS</span>
+                        </a> <br>
+                        <a href="https://www.linkedin.com/groups/1967039/" class="text-decoration-none text-dark left-bar" style="font-size: 12px;">
+                          <i class="fas fa-users group-icon"></i> <span> Patika.dev & Javascript </span>
+                        </a><br><br>
+                        <a href="#"  style="font-size: 12px;  color: #0a66c2;">
+                           Groups
+                        </a><br>   
+
+                        
+                        <a href="https://www.linkedin.com/groups/1967039/" class="text-decoration-none text-dark left-bar" style="font-size: 12px;">
+                            <i class="fas fa-users group-icon"></i> <span> Kodluyoruz & Front-End</span>
+                        </a> <br>
+                        <a href="https://www.linkedin.com/groups/1967039/" class="text-decoration-none text-dark left-bar" style="font-size: 12px;">
+                            <i class="fas fa-users group-icon"></i> <span> Bootstrap & CSS</span>
+                        </a> <br>
+                        <a href="https://www.linkedin.com/groups/1967039/" class="text-decoration-none text-dark left-bar" style="font-size: 12px;">
+                            <i class="fas fa-users group-icon"></i> <span> Patika.dev & Javascript </span>
+                        </a><br>
+                        <a href="https://www.linkedin.com/groups/1967039/" class="text-decoration-none text-dark left-bar ml-3" style="font-size: 12px;">
+                           See all 
+                        </a><br><br>
+
+                        <a href="#" style="font-size: 12px;">
+                            Events <span></span>
+                        </a>
+                        <a href="" class="text-decoration-none text-dark float-right " style="width: 12px; height: 12px;">
+                          <i class="fas fa-plus"></i>
+                        </a><br>
+                        <a href="#" style="font-size: 12px; color: #0a66c2;">
+                            Followed Hashtags
+                          
+                        </a>
+                       
+                    </div>
+                    
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item text-center text-secondary left-bar" style="font-size: 14px;">
+                            <a href="https://www.linkedin.com/mynetwork/discover-hub/" class="text-decoration-none text-secondary">
+                                Discover More
+                            </a>
+                        </li>
+                        
+                    </ul>
+                   
+                </div>
+                
+            </div>
+            <div class="col-sm-6 " style="margin-left: -30px;">
+              
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row no-gutters">
+                    <div class="col-sm-1 py-3 px-2 ">
+                      <a href="#">
+                        <img class="rounded-circle" src="img/profile photo.jpg" style="width: 48px; height: 48px;" alt="">
+                      </a>
+                    </div>
+                    <div class="col-sm-11">
+                      <div class="card-body">
+                          <button class="button w-100  post-button">
+                             Start a post
+                          </button>
+                          
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col-sm-12 mb-2">
+                        <button class="button border-none post-area ml-3">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" focusable="false" style="width: 24px;height: 24px; color: #70b5f9;">
+                            <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
+                          </svg> <span class="top-area-text">Photo</span>
+                        </button>
+                        <button class="button border-none post-area ml-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" focusable="false" style="width: 24px;height: 24px; color: #7fc15e;">
+                            <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
+                          </svg> <span class="top-area-text">Video</span>
+                        </button>
+                        <button class="button border-none post-area ml-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match"  focusable="false" style="width: 24px; height: 24px; color: #e7a33e">
+                            <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"></path>
+                          </svg> <span class="top-area-text">Event</span>
+                        </button>
+                        <button class="button border-none post-area ml-5">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match"  focusable="false" style="width: 24px; height:24px; color:#fc9295">
+                            <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
+                          </svg> <span class="top-area-text">Write article</span>
+                        </button>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-10 ">
+                       <hr style="color: #00000014;">
+                    </div>
+                    <div class="col-sm-2" style="margin-left: -35px; margin-top: -6px;">
+                      <div class="dropdown">
+                        <button class="btn  dropdown-toggle border-none hr-button " style="width: 95px; height: 30px;" type="button" id="dropdownMenuButton " data-toggle="dropdown" aria-expanded="false">
+                          <span style="font-size: 12px; color: #00000099;">Sort by: <strong>Top</strong></span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-white">
+                        <a href="#">
+                            <img src="img/profile photo.jpg" class="rounded-circle" style="width: 24px; height: 24px;" alt="">
+                            <span  class="link" style="font-size: 12px; color: #000000e6;">Çetin Sanğu</span> 
+                        </a>
+                        <span style="font-size: 12px; color:gray" >likes this </span>
+                        <button class="button ellipses float-right ">
+                          <span><i class="fas fa-ellipsis-h"></i></span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex align-items">
+                          <div class="mr-2">
+                            <a href="https://www.linkedin.com/in/malan/">
+                              <img src="https://www.germanamericanconference.org/wp-content/uploads/2017/03/malan6.jpg" alt="" class="rounded-circle" style="width: 48px; height: 48px;">
+                            </a>
+                          </div>
+                          <div class="d-flex flex-column ">
+                              <span>
+                                  <a href="https://www.linkedin.com/in/malan/"  style="font-size: 14px; color: #000000e6;">David J. Malan</a>
+                              </span>
+                              <span style="color:#00000099; font-size: 12px;">I teach CS50</span>
+                              <span style="color:#00000099; font-size: 12px;">4d <span>.</span> <span><i class="fas fa-globe-americas fa-sm"></i></span></span>
+                              
+                          </div>
+                        </div>
+                        
+                        
+                      
+                      
+                    </div>
+                      <p class="ml-3">They have done great things! Tebrikler Kodluyoruz!</p>
+                      <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body " style="margin-top: -20px;">
+                        <span>
+                          <a href="#">
+                             <img src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt=""> 
+                          </a>
+                        </span>
+                        <span>
+                          <a href="#" class="ml-0">
+                             <img src="https://static-exp1.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" alt="">
+                          </a>
+                        </span>
+                        <span>
+                          <a href="#">
+                            <img src="https://static-exp1.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="">
+                          </a>
+                        </span>
+                        <span>
+                          <a href="#" style="font-size: 12px; color: #00000099;">
+                              Çetin Sanğu and 225 others
+                          </a>
+                        </span>
+                        <span class="float-right mt-1" style="font-size: 12px; color: #00000099;">
+                          92 comments   
+                        </span>
+                        
+                        
+                      </div>
+                    
+                    <div class="card-footer bg-white d-flex-justify-content-around">
+                        <button class="btn img-bottom-button mr-4 ml-2" style="border: none; font-size: 14px; color:#00000099 ;">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                          </svg>
+                          <span>Like </span>
+                        </button>
+                        <button class="btn img-bottom-button mr-4" style="border: none; font-size: 14px; color:#00000099 ;">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                          </svg>
+                          <span>Comment </span>
+                        </button>
+                        <button class="btn img-bottom-button mr-5" style="border: none; font-size: 14px; color:#00000099 ;">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                          </svg>
+                          <span>Share </span>
+                        </button>
+                        <button class="btn img-bottom-button mr-2" style="border: none; font-size: 14px; color:#00000099 ;">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                          </svg>
+                          <span>Send </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="card mt-2">
+                  <div class="card-header bg-white">
+                      <a href="https://www.linkedin.com/in/oguzhnduran/">
+                          <img src="https://media-exp1.licdn.com/dms/image/C5603AQHO-pw680_P-Q/profile-displayphoto-shrink_200_200/0/1532366245018?e=1649894400&v=beta&t=ZW8zhAaZTXp07RCg5ZushSwGNN75ob8MZOzzUL0OWbM" class="rounded-circle" style="width: 24px; height: 24px;" alt="">
+                          <span  class="link" style="font-size: 12px; color: #000000e6;">Oguzhan Duran</span> 
+                      </a>
+                      <span style="font-size: 12px; color:gray" >likes this </span>
+                      <button class="button ellipses float-right ">
+                        <span><i class="fas fa-ellipsis-h"></i></span>
+                      </button>
+                  </div>
+                  <div class="card-body">
+                      <div class="d-flex align-items">
+                        <div class="mr-2">
+                          <a href="https://www.linkedin.com/company/kodluyoruz/">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHs13DJqqedrg/company-logo_200_200/0/1635940153707?e=1652313600&v=beta&t=SKyRvP3rVmkGNlYbH_nAEkWn0rmfqmtuLwZ7q6mROz4" alt="" class="rounded-circle" style="width: 48px; height: 48px;">
+                          </a>
+                        </div>
+                        <div class="d-flex flex-column ">
+                            <span>
+                                <a href="https://www.linkedin.com/company/kodluyoruz/"  style="font-size: 14px; color: #000000e6;">Kodluyoruz #KodlaDönüştürelim</a>
+                            </span>
+                            <span style="color:#00000099; font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, architecto.</span>
+                            <span style="color:#00000099; font-size: 12px;">25d <span>.</span> <span><i class="fas fa-globe-americas fa-sm"></i></span></span>
+                            
+                        </div>
+                      </div>
+                      
+                      
+                    
+                    
+                  </div>
+                    <p class="ml-3">Enstitü İstanbul İSMEK, İBB Veri Laboratuvarı, Bölgesel İstihdam Ofisi, Kodluyoruz #KodlaDönüştürelim ve Patika.dev iş birliğiyle gerçekleştireceğimiz ‘’Java ile Back-End Geliştirme Eğitim Programı’’nı sizlerle buluşturuyoruz. Bölgesel İstihdam Ofisi’nin desteğiyle istihdamı hedeflediğimiz 200 saatlik eğitim programı toplam 12 hafta sürecektir.</p>
+                    <img src="https://media-exp1.licdn.com/dms/image/sync/C4E22AQFl36V4xX4tpQ/feedshare-shrink_800/0/1644238409292?e=1646870400&v=beta&t=WmiYNgCgp4sZiVDtcrHq4POu9BnJFv5RxRfGjL_UQhg" class="card-img-top" alt="...">
+                    <div class="card-body " style="margin-top: -20px;">
+                      <span>
+                        <a href="#">
+                           <img src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt=""> 
+                        </a>
+                      </span>
+                      <span>
+                        <a href="#" class="ml-0">
+                           <img src="https://static-exp1.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" alt="">
+                        </a>
+                      </span>
+                      <span>
+                        <a href="#">
+                          <img src="https://static-exp1.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="">
+                        </a>
+                      </span>
+                      <span>
+                        <a href="#" style="font-size: 12px; color: #00000099;">
+                            Çetin Sanğu and 529 others
+                        </a>
+                      </span>
+                      <span class="float-right mt-1" style="font-size: 12px; color: #00000099;">
+                        125 comments   
+                      </span>
+                      
+                      
+                    </div>
+                  
+                  <div class="card-footer bg-white d-flex-justify-content-around">
+                      <button class="btn img-bottom-button mr-4 ml-2" style="border: none; font-size: 14px; color:#00000099 ;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                          <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                        </svg>
+                        <span>Like </span>
+                      </button>
+                      <button class="btn img-bottom-button mr-4" style="border: none; font-size: 14px; color:#00000099 ;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                          <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                        </svg>
+                        <span>Comment </span>
+                      </button>
+                      <button class="btn img-bottom-button mr-5" style="border: none; font-size: 14px; color:#00000099 ;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                          <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                        </svg>
+                        <span>Share </span>
+                      </button>
+                      <button class="btn img-bottom-button mr-2" style="border: none; font-size: 14px; color:#00000099 ;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                          <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                        </svg>
+                        <span>Send </span>
+                      </button>
+                  </div>
+              </div>
+              <div class="card mt-2">
+                <div class="card-header bg-white">
+                    <a href="https://www.linkedin.com/in/hakanyalcinkaya/">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQHagO9FmszqHg/profile-displayphoto-shrink_200_200/0/1575306604237?e=1649894400&v=beta&t=dYLuGj4dHiBMk7aY1-jY7zt32Xk7NqhaShxXxI6nfNw" class="rounded-circle" style="width: 24px; height: 24px;" alt="">
+                        <span  class="link" style="font-size: 12px; color: #000000e6;">Hakan Yalcinkaya</span> 
+                    </a>
+                    <span style="font-size: 12px; color:gray" >likes this </span>
+                    <button class="button ellipses float-right ">
+                      <span><i class="fas fa-ellipsis-h"></i></span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items">
+                      <div class="mr-2">
+                        <a href="https://www.linkedin.com/school/patikadev/">
+                          <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQG1AL6eXKd-_Q/company-logo_200_200/0/1613159962451?e=1652313600&v=beta&t=-Uk-SqnHyhYD_GsGOf5RJCMe7FqmnVrNzVMW3tEluNs" alt="" class="rounded-circle" style="width: 48px; height: 48px;">
+                        </a>
+                      </div>
+                      <div class="d-flex flex-column ">
+                          <span>
+                              <a href="https://www.linkedin.com/school/patikadev/"  style="font-size: 14px; color: #000000e6;">Patika.dev</a>
+                          </span>
+                          <span style="color:#00000099; font-size: 12px;">Istanbul 347+ alumni 24,217 followers</span>
+                          <span style="color:#00000099; font-size: 12px;">32d <span>.</span> <span><i class="fas fa-globe-americas fa-sm"></i></span></span>
+                          
+                      </div>
+                    </div>
+                    
+                    
+                  
+                  
+                </div>
+                  <p class="ml-3">Patika.dev'de bulunan ücretsiz eğitimlerde ilerlerken eğitimlerini tamamlayan ve alıştırmalarını yapanlar puan topluyor. Her hafta ilk 10'a giren kişiler rozet kazanıyor! 🥳</p>
+                  <img src="https://media-exp1.licdn.com/dms/image/C4E22AQEbueeDt-hrtA/feedshare-shrink_800/0/1644225924585?e=1646870400&v=beta&t=LkrJRgvLamjDGk3AWYUjJEVqyEn8MJ8i19gqCL6w6sQ" class="card-img-top" alt="...">
+                  <div class="card-body " style="margin-top: -20px;">
+                    <span>
+                      <a href="#">
+                         <img src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt=""> 
+                      </a>
+                    </span>
+                    <span>
+                      <a href="#" class="ml-0">
+                         <img src="https://static-exp1.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" alt="">
+                      </a>
+                    </span>
+                    <span>
+                      <a href="#">
+                        <img src="https://static-exp1.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="">
+                      </a>
+                    </span>
+                    <span>
+                      <a href="#" style="font-size: 12px; color: #00000099;">
+                          Çetin Sanğu and 568 others
+                      </a>
+                    </span>
+                    <span class="float-right mt-1" style="font-size: 12px; color: #00000099;">
+                      321 comments   
+                    </span>
+                    
+                    
+                  </div>
+                
+                <div class="card-footer bg-white d-flex-justify-content-around">
+                    <button class="btn img-bottom-button mr-4 ml-2" style="border: none; font-size: 14px; color:#00000099 ;">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                      </svg>
+                      <span>Like </span>
+                    </button>
+                    <button class="btn img-bottom-button mr-4" style="border: none; font-size: 14px; color:#00000099 ;">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                      </svg>
+                      <span>Comment </span>
+                    </button>
+                    <button class="btn img-bottom-button mr-5" style="border: none; font-size: 14px; color:#00000099 ;">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                      </svg>
+                      <span>Share </span>
+                    </button>
+                    <button class="btn img-bottom-button mr-2" style="border: none; font-size: 14px; color:#00000099 ;">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                      </svg>
+                      <span>Send </span>
+                    </button>
+                </div>
+            </div>
+                
+              
+
+                
+                
+            </div>
+            <div class="col-sm-3 " >
+                <div class="card mb-3" style="width: 19rem;">
+                  <div>
+                    <p class="mt-2 ml-3" style="font-size: 16px; color: #000000e6;">  Add to your feed <span style="margin-left: 120px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                      <path d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"></path>
+                      </svg></span>
+                    </p>
+                 </div>
+                 <div>
+                  <ul class="list-inline pl-2 d-flex">
+                    <li class="list-inline-item ml-2">
+                        <a href="https://www.linkedin.com/company/codecraft-technologies-private-limited/">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEG_MlSuwzeFw/company-logo_200_200/0/1573099722403?e=1652313600&v=beta&t=WOw1pI_vxzTrFgEZoBlwD2tVbEjfjUFX9ttbRdhQtH0" alt="" class="rounded-circle" style="width: 48px; height: 48px;">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" class="text-decoration-none text-dark" style="font-size: 14px;">
+                          CodeCraft Technologies Pvt Ltd <br>
+                          <span style="font-size: 12px; color: #00000099;" >Computer Software Mangalore, Karnataka </span>
+
+                        </a>
+                    </li>
+                    
+                  </ul>
+                  <div class="mb-2 ml-5">
+                      <button type="button" class="btn right-panel-button pb-4" > 
+                        <span><i class="fas fa-plus"></i></span>
+                        <span style="font-size: 16px;">Follow</span>
+                      </button>
+                  </div>
+                 </div>
+                 <div>
+                  <ul class="list-inline pl-2 d-flex">
+                    <li class="list-inline-item ml-2">
+                        <a href="https://www.linkedin.com/company/kodluyoruz/">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHs13DJqqedrg/company-logo_200_200/0/1635940153707?e=1652313600&v=beta&t=SKyRvP3rVmkGNlYbH_nAEkWn0rmfqmtuLwZ7q6mROz4" alt="" class="rounded-circle" style="width: 48px; height: 48px; border: 1px solid #00000099;">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" class="text-decoration-none text-dark" style="font-size: 14px;">
+                          Kodluyoruz #KodlaDönüştürelim <br>
+                          <span style="font-size: 12px; color: #00000099;" >Information Technology & Services Beyoglu, Istanbul </span>
+
+                        </a>
+                    </li>
+                    
+                  </ul>
+                  <div class="mb-2 ml-5">
+                      <button type="button" class="btn right-panel-button pb-4" > 
+                        <span><i class="fas fa-plus"></i></span>
+                        <span style="font-size: 16px;">Follow</span>
+                      </button>
+                  </div>
+                 </div>
+                 <div>
+                  <ul class="list-inline pl-2 d-flex">
+                    <li class="list-inline-item ml-2">
+                        <a href="https://www.linkedin.com/school/patikadev/">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQG1AL6eXKd-_Q/company-logo_200_200/0/1613159962451?e=1652313600&v=beta&t=-Uk-SqnHyhYD_GsGOf5RJCMe7FqmnVrNzVMW3tEluNs" alt="" class="rounded-circle" style="width: 48px; height: 48px; border: 1px solid #00000099;">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" class="text-decoration-none text-dark" style="font-size: 14px;">
+                          Patika.dev <br>
+                          <span style="font-size: 12px; color: #00000099;" >Istanbul 347+ alumni 24,255 followers </span>
+
+                        </a>
+                    </li>
+                    
+                  </ul>
+                  <div class="mb-2 ml-5">
+                      <button type="button" class="btn right-panel-button pb-4" > 
+                        <span><i class="fas fa-plus"></i></span>
+                        <span style="font-size: 16px;">Follow</span>
+                      </button>
+                  </div>
+                 </div>
+                 
+                
+            </div>
+            <div class="card right-panel-card" style="width: 19rem; ">
+                <img src="https://static-exp1.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg" class="card-img-top" alt="...">
+              
+            </div>
+            <div class="mt-4 text-center " style="font-size: 12px; position: sticky; top: 350px; ">
+                <a href="https://about.linkedin.com/tr-tr?lr=1" target="_blank" style="color: #00000099;" class="right-panel-link mr-3">About</a>
+                <a href="https://www.linkedin.com/accessibility" target="_blank" style="color: #00000099;" class="right-panel-link mr-3 ">Accessibility</a>
+                <a href="https://www.linkedin.com//help/linkedin?trk=footer_d_flagship3_feed" target="_blank" style="color: #00000099;" class="right-panel-link ">Help Center</a>
+                <br><br>
+                <a href="#" target="_blank" style="color: #00000099;" class="right-panel-link mr-3 ">Privacy&Terms</a>
+                <a href="https://www.linkedin.com/help/linkedin/answer/62931" target="_blank" style="color: #00000099;" class="right-panel-link ">Ad Choices</a>
+                <br><br>
+                <a href="https://business.linkedin.com/marketing-solutions/ads" target="_blank" style="color: #00000099;" class="right-panel-link  mr-3">Advertising</a>
+                <a href="#" target="_blank" style="color: #00000099;" class="right-panel-link ">Business Services</a>
+                <br><br>
+                <a href="#" target="_blank" style="color: #00000099;" class="right-panel-link mr-3">Get the Linkedin app</a>
+                <a href="#" target="_blank" style="color: #00000099;" class="right-panel-link ">More</a>
+                <br><br>
+                
+                
+
+            </div>
+            <div style="position: sticky; top: 500px;">
+              <p class="text-center"  style="font-size: 12px; "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 14" data-supported-dps="56x14" fill="currentColor" class="mercado-match" width="56" height="14" focusable="false" style="color: #0a66c2;">
+                <g>
+                  <path class="background-mercado" d="M22.1 8.2l3.09 3.8h-2.44L20 8.51V12h-2V2h2v5.88L22.54 5h2.55zm-8-3.4A2.71 2.71 0 0011.89 6V5H10v7h2V8.73a1.74 1.74 0 011.66-1.93C14.82 6.8 15 7.94 15 8.73V12h2V8.29c0-2.2-.73-3.49-2.86-3.49zM32 8.66a4.22 4.22 0 010 .44h-5.25v.07a1.79 1.79 0 001.83 1.43 2.51 2.51 0 001.84-.69l1.33 1a4.31 4.31 0 01-3.25 1.29 3.49 3.49 0 01-3.7-3.75 3.58 3.58 0 013.76-3.65C30.44 4.8 32 6.13 32 8.66zm-1.86-.86a1.46 1.46 0 00-1.59-1.4 1.64 1.64 0 00-1.8 1.4zM2 2H0v10h6v-2H2zm36 0h2v10h-1.89v-.7a2.44 2.44 0 01-2 .9 3.41 3.41 0 01-3.31-3.7 3.36 3.36 0 013.3-3.7 2.62 2.62 0 011.9.7zm.15 6.5a1.63 1.63 0 00-1.62-1.85A1.76 1.76 0 0034.9 8.5a1.76 1.76 0 001.63 1.85 1.63 1.63 0 001.62-1.85zM8 1.8A1.27 1.27 0 006.75 3a1.25 1.25 0 002.5 0A1.27 1.27 0 008 1.8zM7 12h2V5H7zM56 1v12a1 1 0 01-1 1H43a1 1 0 01-1-1V1a1 1 0 011-1h12a1 1 0 011 1zM46 5h-2v7h2zm.25-2a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM54 8.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 0048.89 6V5H47v7h2V8.73a1.74 1.74 0 011.66-1.93C51.82 6.8 52 7.94 52 8.73V12h2z"></path>
+                </g>
+              </svg> LinkedIn Corporation © 2022</p>
+              
+            </div>
+
+            </div>
+        </div>
+        
+        
+  </section>
+<!--Section-End ------------------------------------------------------------------------------------------ -->
+
+<!--Messaging-Start  -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom ml-auto mr-2" style="width: 300px; height: 50px;">
+  <a class="navbar-brand" href="#">
+      <img class="rounded-circle" style="width: 32px; height: 32px;" src="img/profile photo.jpg" alt="">
+  </a>
+  <a href="" class="text-decoration-none">
+    <span style="font-size: 14px; color: #000000e6;">Messaging</span>
+  </a>
+  <div class="ml-auto">
+      <a href="" class="text-decoration-none mr-2 messaging-link">
+        <span><i class="fas fa-ellipsis-h fa-sm " style="color: #00000099;"></i></span>
+      </a>
+      <a href="" class="text-decoration-none mr-2 messaging-link">
+        <span style="color: #00000099;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+          <path d="M15 2.53a1.51 1.51 0 01-.44 1L9.15 9 6 10l1-3.12 5.44-5.44A1.5 1.5 0 0115 2.53zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V5a1 1 0 011-1h3V2H5a3 3 0 00-3 3v6a3 3 0 003 3h6a3 3 0 003-3V8h-2z"></path>
+        </svg> </span>
+      </a>
+      <a href="" class="text-decoration-none messaging-link">
+        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="color: #00000099;">
+          <path d="M15 11L8 6.39 1 11V8.61L8 4l7 4.61z"></path>
+        </svg></span>
+      </a>
+  </div>
+  
+</nav>
+  
+
+
+
+
+<!--Messaging-End  -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
